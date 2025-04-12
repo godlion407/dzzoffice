@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main # 或您使用的其他主分支名称
-  # 您也可以根据需要添加其他触发条件
+  workflow_dispatch:  # 允许手动触发  
+      # 您也可以根据需要添加其他触发条件
 
 jobs:
   build:
