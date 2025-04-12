@@ -33,4 +33,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: godlion/dzzoffice:latest
+          tags: godlion@126.com/dzzoffice:latest
